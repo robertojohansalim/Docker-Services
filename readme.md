@@ -4,18 +4,18 @@ Used in Ubuntu 20.04.2 LTS
 
 ## PREREQUISITION:
 
-<small>`DO NOT INSTALL USING APT, version is not updated`</small>
+<small>`NOT RECOMENDING INSTALLING USING APT-GET, version is not updated`</small>
 
 - Docker Engine (Obviously) <br>
 https://docs.docker.com/engine/install/ubuntu/
 
-- Docker-comnpose<br>
+- Docker-compose<br>
 https://docs.docker.com/compose/install/
 
 
-## Content:
-- Mongodb
-
+## Contents:
+- mongodb
+- redis
 
 
 
@@ -31,12 +31,27 @@ https://docs.docker.com/compose/install/
     ```
     docker images
     ```
+- Search for Docker Images in Hub
+    ```
+    docker search <search-phrase>
+    ```
+
 - Remove all dangling images, container, volumes, and network
     ```
     docker system prune
     ```
 
+- List Docker Container
+    ```
+    docker ps
+    ```
+    - `-a` to list all running and stopped container
+
+- Getting into Container Bash (terminal)
+    ```
+    sudo docker exec -it <container-name> bash
+    ```
+    - `-it` the `i` means <b>interactive</b>
 
 
-
-Roberto Johan Salim - 2021
+<small>Roberto Johan Salim</small>

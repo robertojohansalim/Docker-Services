@@ -21,7 +21,8 @@
     ```
     mongo
     ```
--   ##
+## HOW TO STOP
+
 
 References:
 - MongoDB on docker <br>
