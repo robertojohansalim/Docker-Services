@@ -1,4 +1,4 @@
-# REDIS Docker Composer
+# POSTGRESQL Docker Composer
 
 ## FIRST TIME SETUP:
 - Make a directory named `data`
