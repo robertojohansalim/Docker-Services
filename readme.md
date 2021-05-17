@@ -16,6 +16,7 @@ https://docs.docker.com/compose/install/
 ## Contents:
 - mongodb
 - redis
+- postgresql
 
 
 
