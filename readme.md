@@ -18,10 +18,25 @@ https://docs.docker.com/compose/install/
 - redis
 - postgresql
 
+## How to Use this Repo:
+- `cd` to service directory
+- follow instruction there for first time setup <small>(usually making directory)</small>
+- to start run command:
+    ```
+    docker-compose up -d
+    ```
+    - `-d` to run command in the background and free the terminal
+- confirm running service using 
+    ```
+    docker ps
+    ```
+- to stop service, cd over to service directory and run:
+    ```
+    docker-compose stop
+    ```
 
 
-
-## Guides:
+## Dokcer Guides:
 - Removing Docker Element (Images, Container) <br>
  https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes
 
