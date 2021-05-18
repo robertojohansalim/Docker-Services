@@ -32,7 +32,7 @@ https://docs.docker.com/compose/install/
     ```
 - to stop service, cd over to service directory and run:
     ```
-    docker-compose stop
+    docker-compose down
     ```
 
 
